@@ -13,6 +13,8 @@ The project demonstrates how classical interpretable neural encoding models can 
 │   ├── ukf.py                 
 │   ├── lstm_decoder.py       
 │
+|
+|
 ├── utils/
 │   ├── preprocessing.py
 │   ├── metrics.py
