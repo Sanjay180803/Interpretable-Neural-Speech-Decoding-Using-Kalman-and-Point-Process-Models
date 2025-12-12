@@ -8,24 +8,23 @@ The project demonstrates how classical interpretable neural encoding models can 
 
                   
 ├── models/
-│   ├── pp_glm.py              
-│   ├── kf.py                  
-│   ├── ukf.py                 
-│   ├── lstm_decoder.py       
+│   ├── pp_glm.py
+│   ├── kf.py
+│   ├── ukf.py
+│   └── lstm_decoder.py
 │
-|
-|
 ├── utils/
 │   ├── preprocessing.py
 │   ├── metrics.py
-│   ├── electrode_importance.py
+│   └── electrode_importance.py
 │
 ├── evaluation/
-│   ├── whisper_eval.py        
+│   ├── whisper_eval.py
 │   ├── topk_ablation.py
-│   ├── ks_improved.py
+│   └── ks_improved.py
 │
-└── main.py  
+└── main.py
+
 
 # Results
 | Metric                 | **PP–GLM** | UKF | KF |
